@@ -15,7 +15,7 @@ $(document).ready(function () {
         number--;
   
         //  Show the number in the #show-number tag.
-        $("#show-number").html("<h2>" + number + "</h2>");
+        $("#show-number").html("<h4>"+ "Time Remaining:" + " " + number + "</h4>");
          //  Once number hits zero...
       if (number === 0) {
 
